@@ -1,0 +1,70 @@
+.otp-grid {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin: 24px 0;
+}
+
+.otp-box {
+  width: 52px;
+  height: 56px;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #1E1B4B;
+  border: 2px solid #E2E8F0;
+  border-radius: 12px;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+  background: #F8FAFC;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.otp-box:focus {
+  border-color: #4F46E5;
+  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1);
+  background: #ffffff;
+}
+
+.otp-box::placeholder {
+  color: #CBD5E1;
+}
+
+.otp-timer {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.otp-timer p {
+  font-size: 0.875rem;
+  color: #64748B;
+}
+
+.otp-timer span {
+  font-weight: 700;
+  color: #4F46E5;
+}
+
+.otp-resend {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 0.875rem;
+  color: #64748B;
+}
+
+.resend-btn {
+  background: none;
+  border: none;
+  color: #4F46E5;
+  font-weight: 600;
+  font-size: 0.875rem;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  transition: color 0.2s ease;
+  padding: 0;
+}
+
+.resend-btn:hover {
+  color: #1E1B4B;
+  text-decoration: underline;
+}
